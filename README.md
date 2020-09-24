@@ -16,3 +16,16 @@ docker-compose up
 ```
 終了するときは、" ctrl + c " の同時押し  
 
+
+  
+db接続確認  
+http://localhost:8080/ping  
+
+無効なurl  
+
+/signup  
+/login  
+/logout  
+/admin  
+/regvideo  
+/regchannel  
