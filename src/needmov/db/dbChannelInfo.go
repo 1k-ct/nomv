@@ -1,8 +1,6 @@
 package db
 
-import (
-	"github.com/1k-ct/nomv/src/needmov/entity"
-)
+import "github.com/1k-ct/nomv/src/needmov/entity"
 
 // InsertChannelInfo channelInfoに追加
 func InsertChannelInfo(

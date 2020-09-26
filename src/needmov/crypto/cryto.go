@@ -1,8 +1,6 @@
 package crypto
 
-import (
-	"golang.org/x/crypto/bcrypt"
-)
+import "golang.org/x/crypto/bcrypt"
 
 // PasswordEncrypt パスワードをhash化
 func PasswordEncrypt(password string) (string, error) {

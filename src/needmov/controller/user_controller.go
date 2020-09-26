@@ -4,12 +4,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/1k-ct/nomv/src/needmov/entity"
-
-	"github.com/1k-ct/nomv/src/needmov/db"
-
-	"github.com/1k-ct/nomv/src/needmov/crypto"
-
+	"github.com/1k-ct/clonefile/nomv/src/needmov/crypto"
+	"github.com/1k-ct/clonefile/nomv/src/needmov/db"
+	"github.com/1k-ct/clonefile/nomv/src/needmov/entity"
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"
 )
