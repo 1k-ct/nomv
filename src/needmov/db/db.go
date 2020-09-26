@@ -3,7 +3,7 @@ package db
 import (
 	"github.com/1k-ct/nomv/src/needmov/entity"
 
-	"github.com/1k-ct/needmov/src/api/crypto"
+	"github.com/1k-ct/nomv/src/needmov/crypto"
 
 	_ "github.com/go-sql-driver/mysql" // gorm mysql import
 	"github.com/jinzhu/gorm"

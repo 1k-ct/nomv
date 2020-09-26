@@ -2,9 +2,11 @@ package server
 
 import (
 	"log"
-	user "needmov/controller"
-	"needmov/entity"
 	"net/http"
+
+	"github.com/1k-ct/nomv/src/needmov/entity"
+
+	user "github.com/1k-ct/nomv/src/needmov/controller"
 
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-contrib/sessions/cookie"
