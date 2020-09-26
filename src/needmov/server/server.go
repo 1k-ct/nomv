@@ -4,9 +4,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/1k-ct/nomv/src/needmov/entity"
-
-	user "github.com/1k-ct/nomv/src/needmov/controller"
+	user "github.com/1k-ct/clonefile/nomv/src/needmov/controller"
+	"github.com/1k-ct/clonefile/nomv/src/needmov/entity"
 
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-contrib/sessions/cookie"
@@ -32,7 +31,7 @@ func router() *gin.Engine {
 
 	r.GET("/", ctrl.Start)
 
-	r.GET("/ping", ctrl.Connection)
+	//r.GET("/ping", ctrl.Connection)
 
 	u := r.Group("/admin")
 	u.Use(sessionCheck())
