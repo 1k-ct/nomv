@@ -1,4 +1,4 @@
-## [needmov](https://qiita.com/Bmouthf/items/d3cfdbee74caeda77e3f)にdockerを練り込んだもの  
+## [needmov](https://github.com/1k-ct/needmov)にdockerを練り込んだもの  
   
 参考記事(qiita)->
 [Go + gorm + gin と mysqlの環境をDockerで作ったった](https://qiita.com/Bmouthf/items/d3cfdbee74caeda77e3f)  
@@ -16,16 +16,4 @@ docker-compose up
 ```
 終了するときは、" ctrl + c " の同時押し  
 
-
-  
-db接続確認  
-http://localhost:8080/ping  
-
-無効なurl  
-
-/signup  
-/login  
-/logout  
-/admin  
-/regvideo  
-/regchannel  
+http://localhost:8080/ 
